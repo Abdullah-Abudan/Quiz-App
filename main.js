@@ -82,10 +82,12 @@ function optionSelected(userAnswer, correctAnswer) {
   const optionsNumber = optionElements.length;
 
   if (userAnswer.textContent.trim() === correctAnswer.trim()) {
+    playCorrectSound(); // Play the correct sound effect
     userScore += 1; // Upgrade score value by 1
     userAnswer.classList.add("correct"); // Add green color to correct selected option
     userAnswer.insertAdjacentHTML("beforeend", successIcon); // Add success icon to correct selected option
   } else {
+    playIncorrectSound(); // Play the inCorrect sound effect
     userAnswer.classList.add("incorrect"); // Add red color to incorrect selected option
     userAnswer.insertAdjacentHTML("beforeend", failIcon); // Add fail icon to incorrect selected option
 
@@ -152,7 +154,7 @@ function startTimer(time, index) {
 
 // Start timer line function
 function startTimerLine(time) {
-  counterLine = setInterval(timer, 29); // Total time in milliseconds / Total pixels
+  counterLine = setInterval(timer, 38); // Total time in milliseconds / Total pixels
   function timer() {
     time += 1; // Upgrade time value by 1
     timeLine.style.width = time + "px"; // Increase the width of time_line by time value
@@ -251,3 +253,15 @@ quitQuiz.addEventListener("click", () => {
   location.reload();
 });
 
+function playCorrectSound() {
+    const correctSound = document.getElementById("correctSound");
+    correctSound.play();
+    correctSound.volume = 0.2
+  }
+  
+  // Function to play the incorrect sound effect
+  function playIncorrectSound() {
+    const incorrectSound = document.getElementById("incorrectSound");
+    incorrectSound.play();
+    incorrectSound.volume = 0.2
+  }
