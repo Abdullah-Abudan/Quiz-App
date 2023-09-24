@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeKnowledge Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="./Images/icon.webp">
+    <!-- FontAwesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Start Quiz Button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Information Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Quiz Rules</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>20 seconds</span> for each question.</div>
+            <div class="info">2. Once you select an answer, it cannot be changed.</div>
+            <div class="info">3. You cannot select any option once the time runs out.</div>
+            <div class="info">4. You cannot exit the quiz while playing.</div>
+            <div class="info">5. You will earn points for correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- The question will be inserted from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- The options will be inserted from JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- The question count number will be inserted from JavaScript -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text" >You've completed the Quiz!</div>
+        <di class="score_text">
+            <!-- The score result will be inserted from JavaScript -->
+        </di>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    
+    <!-- All Quiz-related JavaScript code is in this file -->
+    <script src="./main.js"></script>
+    <!-- Import Axios -->
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+</body>
+
+</html>

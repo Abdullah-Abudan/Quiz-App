@@ -1,0 +1,978 @@
+[
+  {
+    "question": "Why do we use the <br> element?",
+    "category": "HTML",
+    "options": [
+      "To make text bold",
+      "To make text italic",
+      "To add a line break",
+      "To create a horizontal line"
+    ],
+    "answer": "To add a line break"
+  },
+  {
+    "question": "What is the correct HTML for creating a line break?",
+    "category": "HTML",
+    "options": ["<br>", "<lb>", "<break>", "<newline>"],
+    "answer": "<br>"
+  },
+  {
+    "question": "Does the <img> element have the 'href' attribute?",
+    "category": "HTML",
+    "options": [
+      "Yes",
+      "No, it's for the anchor tag <a>",
+      "All elements have this attribute",
+      "Answers 1 and 3 are correct"
+    ],
+    "answer": "No, it's for the anchor tag <a>"
+  },
+  {
+    "question": "How can we make text bold in HTML?",
+    "category": "HTML",
+    "options": [
+      "By using the <b> tag",
+      "By using the <strong> tag",
+      "By using CSS",
+      "All answers are correct"
+    ],
+    "answer": "All answers are correct"
+  },
+  {
+    "question": "How can we include an external page inside our HTML page?",
+    "category": "HTML",
+    "options": [
+      "By using 'include' in HTML",
+      "By using 'load' in HTML",
+      "By using the <iframe> tag",
+      "All solutions are wrong"
+    ],
+    "answer": "By using the <iframe> tag"
+  },
+  {
+    "question": "What is the tag that does not exist in HTML?",
+    "category": "HTML",
+    "options": ["<object>", "<basefont>", "<abbr>", "All tags exist in HTML"],
+    "answer": "All tags exist in HTML"
+  },
+  {
+    "question": "How do we specify the document type of an HTML5 page?",
+    "category": "HTML",
+    "options": [
+      "<!DOCTYPE html>",
+      "<DOCTYPE html5>",
+      "<!DOCTYPE html5>",
+      "<!DOCTYPE html>"
+    ],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "question": "What is the HTML element that does not exist in HTML5 semantics?",
+    "category": "HTML",
+    "options": ["<article>", "<section>", "<blockquote>", "<aside>"],
+    "answer": "<blockquote>"
+  },
+  {
+    "question": "In HTML, can we use this way to add attributes?",
+    "category": "HTML",
+    "options": [
+      "<div class='class-name'>",
+      "<div class=class-name>",
+      "<div class=\"class-name\">",
+      "All are correct"
+    ],
+    "answer": "All are correct"
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "category": "HTML",
+    "options": ["<link>", "<a>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "category": "HTML",
+    "options": [
+      "Hyper Transfer Markup Language",
+      "Hyper Text Markup Language",
+      "Highly Typed Markup Language",
+      "Hyperlink and Text Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which HTML element is used to define the structure of an HTML document?",
+    "category": "HTML",
+    "options": ["<body>", "<head>", "<question>", "<html>"],
+    "answer": "<html>"
+  },
+  {
+    "question": "What is the correct HTML for creating a hyperlink to an external website?",
+    "category": "HTML",
+    "options": [
+      "<a href='http://www.example.com'>Example</a>",
+      "<a url='http://www.example.com'>Example</a>",
+      "<a link='http://www.example.com'>Example</a>",
+      "<a src='http://www.example.com'>Example</a>"
+    ],
+    "answer": "<a href='http://www.example.com'>Example</a>"
+  },
+  {
+    "question": "In HTML, which tag is used to create an unordered list?",
+    "category": "HTML",
+    "options": ["<list>", "<ul>", "<ol>", "<li>"],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "category": "HTML",
+    "options": ["style", "class", "css", "design"],
+    "answer": "style"
+  },
+  {
+    "question": "What is the purpose of the HTML <head> element?",
+    "category": "HTML",
+    "options": [
+      "To define the main content of the document",
+      "To define the header of the document",
+      "To contain metadata about the document",
+      "To define a list of links within the document"
+    ],
+    "answer": "To contain metadata about the document"
+  },
+  {
+    "question": "Which HTML tag is used to define the level of importance of text?",
+    "category": "HTML",
+    "options": ["<strong>", "<importance>", "<emphasis>", "<h1>"],
+    "answer": "<strong>"
+  },
+  {
+    "question": "In HTML, which tag is used to define a table row?",
+    "category": "HTML",
+    "options": ["<td>", "<tr>", "<table>", "<th>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "Which HTML tag is used to create an ordered list?",
+    "category": "HTML",
+    "options": ["<ul>", "<li>", "<ol>", "<list>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "What is the purpose of the HTML <footer> element?",
+    "category": "HTML",
+    "options": [
+      "To define the main content of the document",
+      "To contain a copyright notice or author information",
+      "To define a list of links within the document",
+      "To define the header of the document"
+    ],
+    "answer": "To contain a copyright notice or author information"
+  },
+  {
+    "question": "What is the purpose of the HTML <meta> element?",
+    "category": "HTML",
+    "options": [
+      "To define a list of links within the document",
+      "To define the header of the document",
+      "To contain metadata about the document",
+      "To define the main content of the document"
+    ],
+    "answer": "To contain metadata about the document"
+  },
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "category": "HTML",
+    "options": ["<p>", "<par>", "<pg>", "<para>"],
+    "answer": "<p>"
+  },
+  {
+    "question": "What is the correct HTML for inserting an image?",
+    "category": "HTML",
+    "options": [
+      "<img src='image.jpg' alt='My Image'>",
+      "<image src='image.jpg' alt='My Image'>",
+      "<picture src='image.jpg' alt='My Image'>",
+      "<insert src='image.jpg' alt='My Image'>"
+    ],
+    "answer": "<img src='image.jpg' alt='My Image'>"
+  },
+  {
+    "question": "Which HTML tag is used to define a clickable button?",
+    "category": "HTML",
+    "options": ["<input type='button'>", "<button>", "<clickable>", "<submit>"],
+    "answer": "<button>"
+  },
+  {
+    "question": "Which CSS property is used to change the background color of an element?",
+    "category": "CSS",
+    "options": [
+      "background-color",
+      "color",
+      "text-background",
+      "background-style"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "category": "CSS",
+    "options": [
+      "Computer Style Sheet",
+      "Cascading Style Sheet",
+      "Colorful Style Sheet",
+      "Creative Style Sheet"
+    ],
+    "answer": "Cascading Style Sheet"
+  },
+  {
+    "question": "Which CSS property is used to add shadows to text?",
+    "category": "CSS",
+    "options": ["text-shadow", "font-shadow", "box-shadow", "shadow-text"],
+    "answer": "text-shadow"
+  },
+  {
+    "question": "In CSS, which selector is used to select elements with a specific class?",
+    "category": "CSS",
+    "options": [".class", "#id", ":class", "element.class"],
+    "answer": ".class"
+  },
+  {
+    "question": "Which CSS property is used to control the space between the element's border and its content?",
+    "category": "CSS",
+    "options": ["padding", "margin", "border-spacing", "spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "What is the CSS box model used for?",
+    "category": "CSS",
+    "options": [
+      "Styling images",
+      "Defining fonts",
+      "Creating layouts and spacing",
+      "Animating elements"
+    ],
+    "answer": "Creating layouts and spacing"
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "category": "CSS",
+    "options": ["font-weight", "text-weight", "bold-text", "font-bold"],
+    "answer": "font-weight"
+  },
+  {
+    "question": "In CSS, what is the purpose of the z-index property?",
+    "category": "CSS",
+    "options": [
+      "Controlling text alignment",
+      "Setting the background color",
+      "Controlling the stacking order of elements",
+      "Defining font size"
+    ],
+    "answer": "Controlling the stacking order of elements"
+  },
+  {
+    "question": "Which CSS property is used to add rounded corners to an element?",
+    "category": "CSS",
+    "options": [
+      "border-style",
+      "border-radius",
+      "corner-style",
+      "rounded-border"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "question": "What is the CSS property used to change the size of an element's font?",
+    "category": "CSS",
+    "options": ["font-size", "text-size", "font-style", "text-font"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which CSS property is used to set the text to be italic?",
+    "category": "CSS",
+    "options": ["text-style", "font-style", "italicize", "italic"],
+    "answer": "font-style"
+  },
+  {
+    "question": "In CSS, which selector is used to select elements with a specific id?",
+    "category": "CSS",
+    "options": ["#id", ".class", "element#id", "id"],
+    "answer": "#id"
+  },
+  {
+    "question": "Which CSS property is used to change the font family of an element?",
+    "category": "CSS",
+    "options": ["font-family", "text-family", "font-style", "family-font"],
+    "answer": "font-family"
+  },
+  {
+    "question": "What is the CSS property used to control the order of flex items in a flex container?",
+    "category": "CSS",
+    "options": ["flex-direction", "flex-order", "order", "flex-flow"],
+    "answer": "order"
+  },
+  {
+    "question": "Which CSS property is used to control the size of a container relative to its parent element?",
+    "category": "CSS",
+    "options": ["size", "width", "height", "percentage"],
+    "answer": "width"
+  },
+  {
+    "question": "In CSS, what is the purpose of the display property value 'block'?",
+    "category": "CSS",
+    "options": [
+      "Makes the element display as a block-level element",
+      "Hides the element",
+      "Makes the text bold",
+      "Adds a border to the element"
+    ],
+    "answer": "Makes the element display as a block-level element"
+  },
+  {
+    "question": "Which CSS property is used to control the spacing between lines of text?",
+    "category": "CSS",
+    "options": ["line-spacing", "spacing", "line-height", "text-spacing"],
+    "answer": "line-height"
+  },
+  {
+    "question": "What is the purpose of the CSS property 'opacity'?",
+    "category": "CSS",
+    "options": [
+      "Text color",
+      "Element's visibility",
+      "Font size",
+      "Text alignment"
+    ],
+    "answer": "Element's visibility"
+  },
+  {
+    "question": "In CSS, which property is used to create a drop shadow for an element?",
+    "category": "CSS",
+    "options": ["box-shadow", "element-shadow", "drop-shadow", "shadow-box"],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "category": "CSS",
+    "options": ["font-color", "text-style", "color", "text-color"],
+    "answer": "color"
+  },
+  {
+    "question": "Which CSS property is used to control the space between letters in a text?",
+    "category": "CSS",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "line-spacing",
+      "text-spacing"
+    ],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "In CSS, what property is used to control the alignment of text within an element?",
+    "category": "CSS",
+    "options": ["text-align", "alignment", "justify", "vertical-align"],
+    "answer": "text-align"
+  },
+  {
+    "question": "Which CSS property is used to add a border to an element?",
+    "category": "CSS",
+    "options": ["border-width", "border-color", "border-style", "border"],
+    "answer": "border"
+  },
+  {
+    "question": "What does the CSS property 'float' do?",
+    "category": "CSS",
+    "options": [
+      "Makes text bold",
+      "Floats the element to the right or left of its container",
+      "Changes the font size",
+      "Adds a shadow to the element"
+    ],
+    "answer": "Floats the element to the right or left of its container"
+  },
+  {
+    "question": "In CSS, which property is used to change the color of an element's border?",
+    "category": "CSS",
+    "options": [
+      "border-color",
+      "border-style",
+      "border-width",
+      "border-change"
+    ],
+    "answer": "border-color"
+  },
+  {
+    "question": "Which CSS property is used to control the order of flex items when they wrap onto multiple lines?",
+    "category": "CSS",
+    "options": ["flex-wrap", "flex-flow", "flex-direction", "flex-order"],
+    "answer": "flex-wrap"
+  },
+  {
+    "question": "What is the purpose of the CSS property 'position'?",
+    "category": "CSS",
+    "options": [
+      "Controls the size of an element",
+      "Defines the position of an element relative to its parent",
+      "Changes the font family",
+      "Sets the background color"
+    ],
+    "answer": "Defines the position of an element relative to its parent"
+  },
+  {
+    "question": "In CSS, what property is used to control the space between lines of text within an element?",
+    "category": "CSS",
+    "options": ["line-height", "line-spacing", "spacing", "text-line"],
+    "answer": "line-height"
+  },
+  {
+    "question": "What is the CSS property used to control the style of the bottom border of an element?",
+    "category": "CSS",
+    "options": [
+      "border-top-style",
+      "border-bottom-style",
+      "border-left-style",
+      "border-right-style"
+    ],
+    "answer": "border-bottom-style"
+  },
+  {
+    "question": "Which CSS property is used to control the size of an element's border?",
+    "category": "CSS",
+    "options": [
+      "border-size",
+      "border-width",
+      "border-height",
+      "border-length"
+    ],
+    "answer": "border-width"
+  },
+  {
+    "question": "What is the purpose of the CSS property 'text-transform'?",
+    "category": "CSS",
+    "options": [
+      "Changes the text color",
+      "Transforms text into images",
+      "Controls the transformation of text characters",
+      "Adds shadows to text"
+    ],
+    "answer": "Controls the transformation of text characters"
+  },
+  {
+    "question": "In CSS, what is the 'box-sizing' property used for?",
+    "category": "CSS",
+    "options": [
+      "Styling text",
+      "Controlling the display order",
+      "Defining box dimensions",
+      "Adding borders"
+    ],
+    "answer": "Defining box dimensions"
+  },
+  {
+    "question": "Which CSS property is used to control the distance between an element's outer edges and the content inside it?",
+    "category": "CSS",
+    "options": ["padding", "margin", "spacing", "border-spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "What does the CSS property 'text-decoration' control?",
+    "category": "CSS",
+    "options": [
+      "Text color",
+      "Text decoration such as underline or strikethrough",
+      "Font size",
+      "Text alignment"
+    ],
+    "answer": "Text decoration such as underline or strikethrough"
+  },
+  {
+    "question": "What is JavaScript?",
+    "category": "Basics",
+    "options": [
+      "A coffee brand",
+      "A programming language",
+      "A type of car",
+      "A movie title"
+    ],
+    "answer": "A programming language"
+  },
+  {
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "category": "Basics",
+    "options": ["//", "/*", "#", "--"],
+    "answer": "//"
+  },
+  {
+    "question": "What is the purpose of the 'console.log' function in JavaScript?",
+    "category": "Basics",
+    "options": [
+      "To print messages to the console",
+      "To create a new variable",
+      "To perform mathematical operations",
+      "To display pop-up alerts"
+    ],
+    "answer": "To print messages to the console"
+  },
+  {
+    "question": "How do you declare a variable in JavaScript?",
+    "category": "Basics",
+    "options": [
+      "var myVar;",
+      "variable myVar;",
+      "declare myVar;",
+      "myVar = variable;"
+    ],
+    "answer": "var myVar;"
+  },
+  {
+    "question": "Which keyword is used to declare a constant variable in JavaScript?",
+    "category": "Basics",
+    "options": ["let", "const", "var", "constant"],
+    "answer": "const"
+  },
+  {
+    "question": "What is the result of 2 + 2 in JavaScript?",
+    "category": "Math",
+    "options": ["4", "22", "2", "20"],
+    "answer": "4"
+  },
+  {
+    "question": "How do you round a number 'x' to the nearest integer in JavaScript?",
+    "category": "Math",
+    "options": [
+      "Math.floor(x)",
+      "Math.ceil(x)",
+      "Math.round(x)",
+      "Math.random(x)"
+    ],
+    "answer": "Math.round(x)"
+  },
+  {
+    "question": "Which operator is used to concatenate strings in JavaScript?",
+    "category": "Strings",
+    "options": ["+", "*", "&", "/"],
+    "answer": "+"
+  },
+  {
+    "question": "What is the length of the string 'Hello, World!' in JavaScript?",
+    "category": "Strings",
+    "options": ["11", "12", "13", "10"],
+    "answer": "12"
+  },
+  {
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "category": "Arrays",
+    "options": ["pop()", "shift()", "push()", "splice()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "What is the result of [1, 2, 3] + [4, 5, 6] in JavaScript?",
+    "category": "Arrays",
+    "options": ["[1, 2, 3, 4, 5, 6]", "Error", "10", "NaN"],
+    "answer": "1,2,34,5,6"
+  },
+  {
+    "question": "How do you define a function in JavaScript?",
+    "category": "Functions",
+    "options": [
+      "function = myFunction()",
+      "function myFunction()",
+      "define function myFunction()",
+      "myFunction() = function"
+    ],
+    "answer": "function myFunction()"
+  },
+  {
+    "question": "What is the 'return' statement used for in a JavaScript function?",
+    "category": "Functions",
+    "options": [
+      "To exit the function",
+      "To define a variable",
+      "To specify the function name",
+      "To return a value from the function"
+    ],
+    "answer": "To return a value from the function"
+  },
+  {
+    "question": "Which of the following is not a valid JavaScript loop?",
+    "category": "Loops",
+    "options": ["for", "while", "loop", "do...while"],
+    "answer": "loop"
+  },
+  {
+    "question": "How can you prevent a specific code block from executing in JavaScript?",
+    "category": "Control Structures",
+    "options": [
+      "Using 'if' statements",
+      "Using 'try...catch' blocks",
+      "Using 'else' statements",
+      "Using 'continue' statements"
+    ],
+    "answer": "Using 'try...catch' blocks"
+  },
+  {
+    "question": "What does 'NaN' stand for in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "Not a Number",
+      "New Algorithmic Notation",
+      "Number and Null",
+      "No Assignment Needed"
+    ],
+    "answer": "Not a Number"
+  },
+  {
+    "question": "Which object is used to perform asynchronous operations in JavaScript?",
+    "category": "Advanced",
+    "options": ["setTimeout", "Math", "Document", "Window"],
+    "answer": "setTimeout"
+  },
+  {
+    "question": "What is the purpose of 'JSON.parse()' in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "To parse a JSON string and convert it into an object",
+      "To add comments to JSON data",
+      "To stringify an object into a JSON string",
+      "To remove whitespace from JSON data"
+    ],
+    "answer": "To parse a JSON string and convert it into an object"
+  },
+  {
+    "question": "What does the 'typeof' operator return for a function?",
+    "category": "Advanced",
+    "options": ["function", "object", "array", "undefined"],
+    "answer": "function"
+  },
+  {
+    "question": "How do you create a new date object in JavaScript?",
+    "category": "Date and Time",
+    "options": ["new Date()", "createDate()", "Date.new()", "getCurrentDate()"],
+    "answer": "new Date()"
+  },
+  {
+    "question": "Which method is used to set the minutes of a date object in JavaScript?",
+    "category": "Date and Time",
+    "options": ["setMinutes()", "setTime()", "setDate()", "setHour()"],
+    "answer": "setMinutes()"
+  },
+  {
+    "question": "What does the 'decodeURI()' function do in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "Decodes a URI component",
+      "Encodes a URI component",
+      "Decodes a JSON string",
+      "Decodes a base64 string"
+    ],
+    "answer": "Decodes a URI component"
+  },
+  {
+    "question": "Which of the following is not a JavaScript framework or library?",
+    "category": "Frameworks",
+    "options": ["React", "Angular", "Vue", "Java"],
+    "answer": "Java"
+  },
+  {
+    "question": "What is the purpose of 'localStorage' in JavaScript?",
+    "category": "Web Storage",
+    "options": [
+      "To store data on the server",
+      "To store data temporarily in the browser",
+      "To store data in cookies",
+      "To store data in session storage"
+    ],
+    "answer": "To store data temporarily in the browser"
+  },
+  {
+    "question": "Which event is triggered when an HTML element is clicked?",
+    "category": "Events",
+    "options": ["onmouseover", "onload", "onclick", "onchange"],
+    "answer": "onclick"
+  },
+  {
+    "question": "What is a 'closure' in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "A type of loop",
+      "A programming pattern",
+      "A bug in the code",
+      "An error message"
+    ],
+    "answer": "A programming pattern"
+  },
+  {
+    "question": "What is the result of typeof null in JavaScript?",
+    "category": "Advanced",
+    "options": ["null", "undefined", "object", "number"],
+    "answer": "object"
+  },
+  {
+    "question": "Which method is used to add an element to the end of an array in JavaScript?",
+    "category": "Arrays",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "To declare a variable",
+      "To refer to the current object",
+      "To define a function",
+      "To create a loop"
+    ],
+    "answer": "To refer to the current object"
+  },
+  {
+    "question": "Which method is used to remove an element at a specific index from an array in JavaScript?",
+    "category": "Arrays",
+    "options": ["splice()", "remove()", "cut()", "delete()"],
+    "answer": "splice()"
+  },
+  {
+    "question": "What is the purpose of the 'event.preventDefault()' method in JavaScript?",
+    "category": "Events",
+    "options": [
+      "To trigger an event",
+      "To stop the event propagation",
+      "To prevent the default behavior of an event",
+      "To create an event listener"
+    ],
+    "answer": "To prevent the default behavior of an event"
+  },
+  {
+    "question": "Which method is used to convert a JavaScript object to a JSON string?",
+    "category": "JSON",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "objectToJson()",
+      "stringifyJson()"
+    ],
+    "answer": "JSON.stringify()"
+  },
+  {
+    "question": "What does the 'Array.isArray()' method check for in JavaScript?",
+    "category": "Arrays",
+    "options": [
+      "If an element is an array",
+      "If an object is an array",
+      "If a function is an array",
+      "If a string is an array"
+    ],
+    "answer": "If an object is an array"
+  },
+  {
+    "question": "Which object is used to interact with the Document Object Model (DOM) in JavaScript?",
+    "category": "DOM",
+    "options": ["Document", "Window", "HTMLObject", "DOMObject"],
+    "answer": "Document"
+  },
+  {
+    "question": "What is the result of 2 == '2' in JavaScript?",
+    "category": "Comparison",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of 2 === '2' in JavaScript?",
+    "category": "Comparison",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "false"
+  },
+  {
+    "question": "Which operator is used to combine multiple conditions in a JavaScript 'if' statement?",
+    "category": "Control Structures",
+    "options": ["&&", "||", "!", "??"],
+    "answer": "&&"
+  },
+  {
+    "question": "What is the purpose of 'async' and 'await' in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "To create loops",
+      "To handle asynchronous operations",
+      "To define event listeners",
+      "To perform mathematical operations"
+    ],
+    "answer": "To handle asynchronous operations"
+  },
+  {
+    "question": "How do you access the first element of an array in JavaScript?",
+    "category": "Arrays",
+    "options": ["array[0]", "array.first()", "array.first", "array.get(0)"],
+    "answer": "array[0]"
+  },
+  {
+    "question": "What is the purpose of the 'map()' method in JavaScript?",
+    "category": "Arrays",
+    "options": [
+      "To create a new array with the results of calling a function on each element",
+      "To remove an element from an array",
+      "To add an element to the end of an array",
+      "To check if an array contains a specific element"
+    ],
+    "answer": "To create a new array with the results of calling a function on each element"
+  },
+  {
+    "question": "How do you add a comment in JavaScript that spans multiple lines?",
+    "category": "Basics",
+    "options": [
+      "/* This is a comment */",
+      "// This is a comment",
+      "# This is a comment",
+      "-- This is a comment"
+    ],
+    "answer": "/* This is a comment */"
+  },
+  {
+    "question": "Which method is used to remove the first element from an array in JavaScript?",
+    "category": "Arrays",
+    "options": ["shift()", "pop()", "splice()", "remove()"],
+    "answer": "shift()"
+  },
+  {
+    "question": "What is the purpose of the 'continue' statement in JavaScript?",
+    "category": "Control Structures",
+    "options": [
+      "To exit a loop",
+      "To skip the current iteration of a loop",
+      "To pause the execution of a loop",
+      "To restart a loop"
+    ],
+    "answer": "To skip the current iteration of a loop"
+  },
+  {
+    "question": "Which object is used to represent an HTML form in JavaScript?",
+    "category": "DOM",
+    "options": ["FormObject", "HTMLFormElement", "Form", "document.form"],
+    "answer": "HTMLFormElement"
+  },
+  {
+    "question": "What is the result of 5 + '5' in JavaScript?",
+    "category": "Math",
+    "options": ["10", "55", "5 + '5'", "undefined"],
+    "answer": "55"
+  },
+  {
+    "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+    "category": "Control Structures",
+    "options": [
+      "To create a loop",
+      "To handle exceptions and errors",
+      "To define a function",
+      "To perform mathematical operations"
+    ],
+    "answer": "To handle exceptions and errors"
+  },
+  {
+    "question": "Which method is used to convert a string to lowercase in JavaScript?",
+    "category": "Strings",
+    "options": [
+      "toUpperCase()",
+      "toLowerCase()",
+      "convertToLower()",
+      "lowerCase()"
+    ],
+    "answer": "toLowerCase()"
+  },
+  {
+    "question": "What is the purpose of 'setInterval()' in JavaScript?",
+    "category": "Advanced",
+    "options": [
+      "To set the interval between function calls",
+      "To clear an interval",
+      "To create a new interval",
+      "To pause the execution of a function"
+    ],
+    "answer": "To set the interval between function calls"
+  },
+  {
+    "question": "Which method is used to add an element to the beginning of an array in JavaScript?",
+    "category": "Arrays",
+    "options": ["push()", "unshift()", "prepend()", "addFirst()"],
+    "answer": "unshift()"
+  },
+  {
+    "question": "What is the result of '5' == 5 in JavaScript?",
+    "category": "Comparison",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of '5' === 5 in JavaScript?",
+    "category": "Comparison",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "false"
+  },
+  {
+    "question": "How do you check if a variable is undefined in JavaScript?",
+    "category": "Basics",
+    "options": [
+      "if (variable == undefined)",
+      "if (variable === null)",
+      "if (typeof variable === 'undefined')",
+      "if (variable.isEmpty())"
+    ],
+    "answer": "if (typeof variable === 'undefined')"
+  },
+  {
+    "question": "What is the purpose of the 'Array.from()' method in JavaScript?",
+    "category": "Arrays",
+    "options": [
+      "To create a new array from an existing array",
+      "To remove elements from an array",
+      "To sort an array",
+      "To check if an array is empty"
+    ],
+    "answer": "To create a new array from an existing array"
+  },
+  {
+    "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+    "category": "Objects",
+    "options": [
+      "To retrieve the values of an object",
+      "To retrieve the keys of an object",
+      "To create a new object",
+      "To remove properties from an object"
+    ],
+    "answer": "To retrieve the keys of an object"
+  },
+  {
+    "question": "How do you add a class to an HTML element using JavaScript?",
+    "category": "DOM",
+    "options": [
+      "element.addClass('className')",
+      "element.classList.add('className')",
+      "element.class('className')",
+      "element.className('className')"
+    ],
+    "answer": "element.classList.add('className')"
+  },
+  {
+    "question": "What is the result of typeof undefined in JavaScript?",
+    "category": "Basics",
+    "options": ["undefined", "null", "object", "number"],
+    "answer": "undefined"
+  },
+  {
+    "question": "Which operator is used for exponentiation in JavaScript?",
+    "category": "Math",
+    "options": ["^", "**", "^^", "*^"],
+    "answer": "**"
+  },
+  {
+    "question": "What is the purpose of the 'Array.splice()' method in JavaScript?",
+    "category": "Arrays",
+    "options": [
+      "To add elements to an array",
+      "To remove elements from an array",
+      "To sort an array",
+      "To check if an array is empty"
+    ],
+    "answer": "To remove elements from an array"
+  }
+]
