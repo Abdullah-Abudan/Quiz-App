@@ -11,7 +11,7 @@ const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 const nextBtn = document.querySelector("footer .next_btn");
 const bottomCounter = document.querySelector("footer .total_que");
-
+const BaseUrl = "https://raw.githubusercontent.com/Abdullah-Abudan/Quiz-App/main/question.json";
 // Creating new div tags for icons
 let successIcon = '<div class="icon success"><i class="fas fa-check"></i></div>';
 let failIcon = '<div class="icon fail"><i class="fas fa-times"></i></div>';
@@ -48,8 +48,9 @@ continueBtn.addEventListener("click", () => {
 function showQuestions(index) {
   const questionText = document.querySelector(".que_text");
   axios
-    .get("./question.json")
+    .get(BaseUrl)
     .then((response) => {
+        console.log(response.data,"sdds");
       const questions = response.data;
       questionText.textContent = questions[index].question;
       optionList.innerHTML = questions[index].options
@@ -126,7 +127,7 @@ function startTimer(time, index) {
       timeText.textContent = "Time Off";
 
       axios
-        .get("./question.json")
+        .get(BaseUrl)
         .then((response) => {
           const questions = response.data;
           console.log(questions[index].answer);
@@ -167,7 +168,7 @@ function startTimerLine(time) {
 
 // If Next Question button is clicked
 nextBtn.addEventListener("click", () => {
-  axios.get("./question.json").then((response) => {
+  axios.get(BaseUrl).then((response) => {
     const questions = response.data;
     if (questionIndex < questions.length - 1) {
       questionIndex++;
@@ -203,7 +204,7 @@ function showResult() {
   quizBox.classList.remove("activeQuiz"); // Hide quiz box
   resultBox.classList.add("activeResult"); // Show result box
   const scoreText = resultBox.querySelector(".score_text");
-  axios.get("./question.json").then((response) => {
+  axios.get(BaseUrl).then((response) => {
     const questionsLength = response.data.length;
 
     if (userScore > 3) {
@@ -224,7 +225,7 @@ function showResult() {
 
 // Function to handle the "Restart Quiz" button click
 restartQuiz.addEventListener("click", () => {
-  axios.get("./question.json").then((response) => {
+  axios.get(BaseUrl).then((response) => {
     const questions = response.data;
     quizBox.classList.add("activeQuiz");
     resultBox.classList.remove("activeResult");
