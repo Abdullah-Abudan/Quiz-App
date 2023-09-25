@@ -11,7 +11,7 @@ const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 const nextBtn = document.querySelector("footer .next_btn");
 const bottomCounter = document.querySelector("footer .total_que");
-const BaseUrl = "https://raw.githubusercontent.com/Abdullah-Abudan/Quiz-App/main/question.json";
+const BaseUrl = "questions.json";
 // Creating new div tags for icons
 let successIcon = '<div class="icon success"><i class="fas fa-check"></i></div>';
 let failIcon = '<div class="icon fail"><i class="fas fa-times"></i></div>';
