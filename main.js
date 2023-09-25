@@ -200,6 +200,7 @@ const quitQuiz = resultBox.querySelector(".buttons .quit");
 
 // Show result when the quiz is over
 function showResult() {
+  playResultSound();  
   infoBox.classList.remove("activeInfo"); // Hide info box
   quizBox.classList.remove("activeQuiz"); // Hide quiz box
   resultBox.classList.add("activeResult"); // Show result box
@@ -207,15 +208,14 @@ function showResult() {
   axios.get(BaseUrl).then((response) => {
     const questionsLength = response.data.length;
 
-    if (userScore > 3) {
-      // Creating a new span tag and displaying the user's score and total question number
-      let scoreTag = `<span>and congrats! , You got <p>${userScore}</p> out of <p>${questionsLength}</p></span>`;
-      scoreText.innerHTML = scoreTag; // Adding new span tag inside score_Text
-    } else if (userScore > 1) {
-      let scoreTag = `<span>and nice , You got <p>${userScore}</p> out of <p>${questionsLength}</p></span>`;
+    if (userScore >80 ) {
+      let scoreTag = `<span>Congratulations! You scored <p>${userScore}</p> out of <p>${questionsLength}</p></span>`;
+      scoreText.innerHTML = scoreTag;
+    } else if (userScore >60 ) {
+      let scoreTag = `<span>Great job! You scored <p>${userScore}</p> out of <p>${questionsLength}</p></span>`;
       scoreText.innerHTML = scoreTag;
     } else {
-      let scoreTag = `<span>and sorry , You got only <p>${userScore}</p> out of <p>${questionsLength}</p></span>`;
+      let scoreTag = `<span>Sorry, you scored only <p>${userScore}</p> out of <p>${questionsLength}</p></span>`;
       scoreText.innerHTML = scoreTag;
     }
   }).catch((error) => {
@@ -265,4 +265,11 @@ function playCorrectSound() {
     const incorrectSound = document.getElementById("incorrectSound");
     incorrectSound.play();
     incorrectSound.volume = 0.2
+  }
+
+  // Function to play the result sound effect
+  function playResultSound() {
+    const resultSound = document.getElementById("resultSound");
+    resultSound.play();
+    resultSound.volume = 0.2
   }
